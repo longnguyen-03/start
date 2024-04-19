@@ -20,4 +20,4 @@ const sv= new mongoose.Schema({
 });
 
 const svmodel= new mongoose.model('test', sv);
-module.exports=sv;
+module.exports=svmodel;
